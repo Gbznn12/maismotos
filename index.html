@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mais Motos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: #bf0b0b;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .produto {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      padding-bottom: 20px;
+    }
+    .produto:hover {
+      transform: scale(1.03);
+    }
+    .produto img {
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .produto h3 {
+      margin: 10px 0 5px 0;
+    }
+    .produto p {
+      margin: 0 10px 15px;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s;
+      margin-top: 10px;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1ebe5b;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Mais Motos" style="max-width: 200px; height: auto;">
+  <p>As melhores motos, com os melhores preços!</p>
+</header>
+
+<section class="produtos">
+  <div class="produto">
+    <img src="CB500.jpg" alt="Cb500f, 2019">
+    <h3>Cb500f, 2019</h3>
+    <p>R$ 31.999 - Motor potente e design agressivo.</p>
+    <a class="whatsapp-btn" href="https://wa.me/556499116706?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Cb500f%2C%202019" target="_blank">Falar no WhatsApp</a>
+  </div>
+  <div class="produto">
+    <img src="biz2013.jpg" alt="Biz 125cc, ano 2013">
+    <h3>Biz 125cc, ano 2013</h3>
+    <p>R$ 9.799 - Conforto e estilo nas pistas
+.</p>
+    <a class="whatsapp-btn" href="https://wa.me/556499116706?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Biz%20125cc%2C%20ano%202013" target="_blank">Falar no WhatsApp</a>
+  </div>
+  <div class="produto">
+    <img src="crosser.jpg" alt="Crosser 150cc, ano 2017">
+    <h3>Crosser 150cc, ano 2017</h3>
+    <p>R$ 12.499 - Aventura sobre rodas!.</p>
+    <a class="whatsapp-btn" href="https://wa.me/556499116706?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Crosser%20150cc%2C%20ano%202017" target="_blank">Falar no WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Mais Motos. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
